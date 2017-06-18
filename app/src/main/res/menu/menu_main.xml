@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.whiplash.prateekspk.quicknotify.MainActivity">
+    <item
+        android:id="@+id/action_clearall"
+        android:orderInCategory="100"
+        android:title="Clear All"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="200"
+        android:title="Help"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/action_rateus"
+        android:orderInCategory="300"
+        android:title="Rate US"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_write"
+        android:orderInCategory="300"
+        android:title="Write to us"
+        app:showAsAction="never"></item>
+</menu>
